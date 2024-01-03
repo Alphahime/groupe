@@ -310,7 +310,7 @@ P{
 }
 .box-jumeau{
     width: 100%;
-    height: 400px;
+    height: 800px;
     display: flex;
     margin-top: 8rem;
     justify-content: center;
@@ -342,7 +342,6 @@ P{
     border-radius: 2rem;
     background-color: rgb(249, 245, 245);
     box-shadow: 10px 10px 10px 10px 10px 10px;
-    margin-top: 4rem;
     display: flex;
 }
 .img{
@@ -400,4 +399,84 @@ P{
     background-color: rgb(195, 16, 16);
     margin-left: 42rem;
     margin-top: -2rem;
+}
+.all-btn{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    margin-top: 42rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all-btn .btn{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    background-color: rgb(195, 16, 16);
+    margin-left: 1rem;
+    border: none;
+}
+.all-btn .btn-long{
+    width: 4rem;
+    height: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(195, 16, 16);
+    margin-left: 1rem;
+    border: none;
+}
+.box-pedagog{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    margin-top: 100rem;
+  
+}
+.box-pedagog .title-pegagog{
+   font-size: 45px;
+   color: rgb(195, 16, 16);
+   font-weight: 800;
+   margin-left: 6rem;
+   margin-top: 5rem;
+}
+.title-pegagog img{
+    position: absolute;
+    margin-left: -27.5rem;
+}
+.image-contain{
+    background-image: url("30.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 400px;
+    margin-left: 12rem;
+    margin-top: 4rem;
+}
+.box-alumni{
+    width: 100% ;
+    height: 600px;
+    display: flex;
+    padding-left: 8rem;
+    gap: 3px;
+    padding-top: 5rem;
+}
+.box-alumni .box{
+    width: 40%;
+    height: 300px;
+}
+.box-alumni .box2{
+    width: 40%;
+    height: 300px;
+}
+.alumni{
+    font-size:40px  ;
+    color: rgb(195, 16, 16);
+    margin-top: 3rem;
+    font-weight: 700;
+}
+.box p{
+    font-size: 22px;
+    color: rgb(57, 56, 56);
+    margin-top: 8rem;
 }
