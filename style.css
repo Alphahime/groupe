@@ -464,10 +464,17 @@ P{
 .box-alumni .box{
     width: 40%;
     height: 300px;
+    padding-left: 5rem;
 }
 .box-alumni .box2{
     width: 40%;
-    height: 300px;
+    height:400px;
+    background-image: url("8.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+
 }
 .alumni{
     font-size:40px  ;
